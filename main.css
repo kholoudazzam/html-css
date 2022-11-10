@@ -1,0 +1,481 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins", sans-serif ;
+}
+
+.conteiner {
+    padding: 40px;
+   margin: auto 40px;
+}
+
+.hedeer {
+    background-image: url(image/image02.jpg);
+    background-size: 100% 100%;
+    height: 100vh;
+}
+
+.layer {
+    background-color: rgba(0, 0, 0, .5);
+height: 100vh;
+display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.navbar {
+    background-color:black;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left:0 ;
+    display: flex;
+    justify-content: space-between;
+      padding: 15px 40px ;
+
+    
+}
+
+.navbar ul {
+list-style-type: none;
+display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: space-between;
+
+    
+}
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+
+.caption{
+    text-align: center;
+    color: #fff;
+    
+}
+.caption h1{
+    margin: 20px 0;
+    font-size: 60px;
+    color: #fff;
+
+}
+
+.caption h1::after {
+    content:"|";
+    animation-name: typing;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+}
+
+ @keyframes typing {
+     0%{content: "|D";}
+     3%{content: "|De";}
+     6%{content: "|Des";}
+     9%{content: "|Desi";}
+     12%{content: "|Desig";}
+     
+     15%{content: "|Design";}
+
+     18%{content: "|Desig";}
+     21%{content: "|Desi";}
+     24%{content: "|Des";}
+     27%{content: "|De";}
+    30%{content: "|";}
+    
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+.caption h5{
+    font-size: 25px; }
+
+ .caption button {
+     color: #20c997;
+     background: none;
+        border: #20c997 3px solid;
+        padding: 0.8rem 2.6rem;
+    font-weight: 500;
+    padding: 15px 40px;
+    border-radius: 15%;
+    margin-top: 20px;
+    }
+
+.postion-btn {
+   
+}
+.for-postion-btn {
+    transition: 1s all;
+}
+
+    .for-postion-btn:hover{
+        background-color: #20c997;
+        color: #fff;
+       
+    }
+
+
+        .know-me-more {
+            
+            text-align: center;
+            position: relative;
+            padding: 30px;
+           font-size: 30;
+    
+        }
+
+    
+
+.border-part {
+     width: 5%;
+     height: 2px;
+     background-color: #20c997;
+     margin: auto;
+}
+
+       
+    .postion-h2 h2 {
+        text-align: center;
+        font-size: 100;
+        
+    }
+     .postion-h2 {
+        color: #dee3e4;
+        position: absolute;
+        top: 0%;
+        right: 30%;
+        opacity: 0.5;
+        
+     }
+
+
+
+    .layer-now-me h2 {
+        font-weight: 600 ;
+        color: #252b33;
+        margin: 10px;
+        
+    }
+
+    .layer-now-me  .olivia {
+        color: #20c997;
+    }
+
+
+
+    .about-parent {
+        display: flex;
+        width: 80%;
+        justify-content: space-around; /* مش شغاله */ 
+        margin: 20px;
+        
+    }
+
+.about-contant p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    line-height: 1.8;
+}
+
+.about-contant span {
+    margin-right: 0.5rem
+}
+
+.about-contant ul {
+    list-style: none;
+   margin: 10px;
+   
+}
+
+.about-contant li {
+    list-style-type: none;
+    border-bottom: 1px solid #eaeaea;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  
+}
+
+.about-contant a {
+    text-decoration: none;
+    color: #20c997;
+}
+
+
+
+.about-contant  button{
+    background :#20c997;
+    padding: 10px  25px ;
+    color: #fff;
+    font-weight: 500;
+    border-color: #20c997;
+    border-radius: 10%;
+}
+
+   .number {
+       display: flex;
+       justify-content: space-around;
+       width: 70%;
+       text-align: center;
+    
+   }
+
+   .service {
+       text-align: center;
+   }
+
+   .What-i-Do {
+        text-align: center;
+   }
+
+
+   .services {
+       display: flex;
+       flex-wrap: wrap;
+       margin: 20px;
+       width: 100%;
+       justify-content: center;
+       align-items: center;
+
+    
+      }
+
+
+
+   .services-part{
+       width: 50%;
+       display: flex;
+       padding: 20px;
+   }
+
+   .services-part p {
+       line-height: 1.8;
+   }
+
+  
+
+
+   .number h2 {
+       font-size: 45;
+       margin-bottom: 5px;
+       color: #6c757d;
+   }
+
+   .numbers span {
+       color: #252b33;
+   }
+
+
+   .sevice {
+       background-color: #f8f9fa;
+   }
+
+
+.What-i-Do {
+    position: relative;
+    height: 20%;
+
+}
+
+.What-i-Do h2 {
+    padding-top:40px;
+}
+
+
+.resume {
+    padding-top: 40px;
+    position: relative;
+    text-align: center;
+    
+}
+
+.My-Education h2 {
+    padding: 20px;
+    font-size: 30px
+}
+
+.My-Education-part  h4 {
+    height: 3%;
+    background-color: #20c997;
+    width: 20%;
+    text-align: center;
+    padding-top: 3px;
+    color: #fff;
+
+}
+
+
+
+.My-Education-part h2 {
+    color: #252b33;
+    padding: 5px;
+}
+
+.My-Education-part h3 {
+    color: #dc3545;
+    padding: 10px;
+}
+
+.My-Education-part {
+    width:90%;
+    border: 1px solid #6c757d;
+    padding: 30px;
+    margin: 20px;
+
+    
+}
+
+
+.MyExperience {
+    display: flex;
+}
+
+
+
+.my-skills {
+    width: 40%;
+    padding: 30px;
+}
+
+.my-skills h3 {
+    text-align: left;
+    padding: 10px;
+
+}
+
+
+.my-skills span {
+    float: right;
+}
+.skills {
+    background-color: #dee3e4;
+height: 3px;
+width: 100%;
+}
+
+
+.percentage {
+    height: 3px;
+    background-color: #20c997;
+    width: 65%;
+}
+
+
+.skill{
+display: flex;
+flex-wrap: wrap;
+}
+
+.Bootstrap {
+    height: 3px;
+    background-color: #20c997;
+    width: 95%;
+}
+
+
+.JavaScript {
+    width: 80%;
+    height: 3px;
+    background-color: #20c997;
+}
+
+.Angular-Js{
+
+    width: 60%;
+    height: 3px;
+    background-color: #20c997;
+}
+
+.HTMl-CSS{
+    width: 90%;
+    height: 3px;
+    background-color: #20c997;
+}
+
+
+.React-JS{
+    width: 70%;
+    height: 3px;
+    background-color: #20c997;
+
+}
+
+.skill-btn {
+    text-align: center;
+  
+}
+
+.skill-btn button {
+    padding: 15px 35px;
+    background: none;
+    border: 3px solid #6c757d;
+    border-radius: 15%;
+    transition: 1s all ;
+}
+
+.btn-postion:hover{
+    background-color: #6c757d;
+    color: #fff;
+}
+
+
+.Client-Speak{
+    position: relative;
+    padding: 40px;
+    text-align: center;
+}
+
+.testimonial {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.testimonial-part {
+    width: 45%;
+margin: 20px;
+padding: 30px;
+    background-color: #f8f9fa;
+}
+.testimonial-part h3 {
+    padding: 7px;
+}
+
+.testimonial-part h4 {
+    color: #6c757d;
+    padding: 10px;
+
+}
+
+
+.testimonial-part p {
+    line-height: 1.5;
+    color: #212529;
+    font-weight: 500;
+}
+
+
+.Get-in-Touch {
+    text-align: center;
+    position: relative;
+    padding: 40px;
+    margin: 40px;
+
+}
+
+
